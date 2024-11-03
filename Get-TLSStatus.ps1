@@ -175,7 +175,7 @@ $CurrentRow.'v2.0.50727' = $NETv2Status
 $CurrentRow.'v4.0.30319' = $NETv4Status
 
 # Write Output to screen
-#Clear-Host
+Clear-Host
 Write-Host -ForegroundColor Cyan -Object "`n$($Title)`n"
 Write-Host -ForegroundColor DarkYellow -Object "TLS Versions"
 $TLStable | ft -AutoSize
